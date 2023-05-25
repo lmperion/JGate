@@ -2,13 +2,8 @@
 
 import classes from './App.module.scss';
 import Card from './components/card/Card';
+import { Product } from './types/interface';
 
-interface Product {
-  price: string;
-  name: string;
-  description: string;
-  id: number;
-}
 
 const products = [{
   price: "$100",

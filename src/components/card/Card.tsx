@@ -6,13 +6,7 @@ import classes from './Card.module.scss';
 import redHeadPhone from '../../img/imageHeadPhone.png';
 import blueHeadPhone from '../../img/blueHeadPhone.jpg';
 import blackHeadPhone from '../../img/blackHeadPhone.jpg';
-
-interface Product {
-  price: string;
-  name: string;
-  description: string;
-  id: number;
-}
+import { Product } from '../../types/interface';
 
 interface Props {
   product: Product;
